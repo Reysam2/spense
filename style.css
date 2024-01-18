@@ -83,20 +83,20 @@
 /* main__business-block */
 .main__business-block {
   min-height: 40rem;
-  background: lightgray;
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 6rem;
 }
 
 .business__info-block {
-  flex-basis: 50%;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .business__info-heading-block {
   min-height: 5rem;
-
-  background: rgb(224, 230, 224);
 }
 
 .business__info-heading {
@@ -106,7 +106,6 @@
 
 .business__info-text-block {
   min-height: 8rem;
-  background: yellow;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -120,7 +119,6 @@
 /* business__offer-block */
 .business__offer-block {
   min-height: 10rem;
-  background: rgb(202, 247, 202);
 }
 
 .business__offer-list-item {
@@ -134,7 +132,6 @@
 .business__mail-block {
   min-height: 10rem;
   width: 100%;
-  background: rgb(212, 91, 91);
   display: flex;
   align-items: center;
 }
@@ -143,13 +140,11 @@
   min-height: 7rem;
   width: 100%;
   display: flex;
-  background: red;
   gap: 2rem;
 }
 
 .mail__input-field {
   flex-basis: 20%;
-  background: green;
   display: flex;
   align-items: center;
 }
@@ -164,7 +159,6 @@
 
 .mail__button-block {
   flex-basis: 30%;
-  background: gray;
   display: flex;
   align-items: center;
 }
@@ -179,7 +173,9 @@
   color: #efefee;
 }
 
-.business__logo-block {
+.business__image-block {
   flex-basis: 30%;
-  background: red;
+  display: flex;
+  background: url(assets/Hero\ Image\ \(Desktop\).png) no-repeat center;
+  background-size: contain;
 }
