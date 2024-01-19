@@ -179,3 +179,87 @@
   background: url(assets/Hero\ Image\ \(Desktop\).png) no-repeat center;
   background-size: contain;
 }
+
+/* main__escrow-block */
+.main__escrow-block {
+  min-height:50rem;
+  width: 100%;
+  background:red;
+  display:flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+.escrow__social-block {
+  min-height:10rem;
+  width:100%;
+  background:gray;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:3rem;
+}
+
+.escrow__social-box { 
+ flex-basis:9%; 
+  background:rgb(129, 86, 86);
+}
+
+.escrow__social {
+  width:100%; 
+  vertical-align: top;
+  aspect-ratio: 16/4;
+}
+
+.escrow__info-block {
+  min-height:35rem;
+  width:100%;
+  background:rgb(163, 136, 84); 
+  display:flex;
+  justify-content: center; 
+  gap:2rem;
+} 
+
+.escrow__info {
+  flex-basis: 40%;
+  background:green;
+  /* display:flex; */
+  /* flex-direction: column;  */
+  /* justify-content: center;  */
+}
+
+.escrow__info-heading-block {
+  min-height:5rem;
+  background:rgb(154, 163, 154);
+  width:100%;
+}
+
+.escrow__info-heading {
+  font-size:3rem;
+  font-weight:600;
+  color:#000000;
+  line-height: 1.3;
+}
+
+.escrow__info-text-block {
+  min-height: 10rem;
+  background: lightpink;
+  width:100%;
+  display:flex;
+  align-items: center;
+}
+ 
+.escrow__info-link-block {
+  min-height:5rem;
+  width:100%;
+  background:lightcoral;
+  display:flex;
+  align-items: center;
+
+}
+
+.escrow__info-link {
+  text-decoration: underline;
+}
+ 
+ 
