@@ -77,34 +77,35 @@
 
 /* main */
 .main-block {
-  grid-area: main;
+  grid-area: main; 
 }
 
-/* main__business-block */
-.main__business-block {
+/* main__hero-block */
+.main__hero-block {
   min-height: 40rem;
   display: flex;
   justify-content: center;
   gap: 6rem;
+  margin-top:6rem;
 }
 
-.business__info-block {
+.hero__info-block {
   flex-basis: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.business__info-heading-block {
+.hero__info-heading-block {
   min-height: 5rem;
 }
 
-.business__info-heading {
+.hero__info-heading {
   font-size: 4rem;
   line-height: 1.2;
 }
 
-.business__info-text-block {
+.hero__info-text-block {
   min-height: 8rem;
   width: 100%;
   display: flex;
@@ -112,31 +113,31 @@
   align-items: center;
 }
 
-.business__info-text {
+.hero__info-text {
   font-size: 1.8rem;
 }
 
-/* business__offer-block */
-.business__offer-block {
+/* hero__offer-block */
+.hero__offer-block {
   min-height: 10rem;
 }
 
-.business__offer-list-item {
+.hero__offer-list-item {
   background: url(assets/Checkmark.svg) no-repeat left center;
   padding-left: 3.5rem;
   line-height: 2.5;
   list-style: none;
 }
 
-/* business__mail-block */
-.business__mail-block {
+/* hero__mail-block */
+.hero__mail-block {
   min-height: 10rem;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.business__mail {
+.hero__mail {
   min-height: 7rem;
   width: 100%;
   display: flex;
@@ -173,7 +174,7 @@
   color: #efefee;
 }
 
-.business__image-block {
+.hero__image-block {
   flex-basis: 30%;
   display: flex;
   background: url(assets/Hero\ Image\ \(Desktop\).png) no-repeat center;
