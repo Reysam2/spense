@@ -101,16 +101,16 @@ mobile display
 /* main */
 .main-block {
   grid-area: main;
+  min-height: 20rem;
 }
 
 /* main__hero-block */
 .main__hero-block {
   min-height: 40rem;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
+  flex-direction: column-reverse; 
   align-items:center;
-  margin-top: 6rem;
+  margin-top: 6rem; 
 }
 
 .hero__info-block {
@@ -119,10 +119,10 @@ mobile display
   display: flex;
   flex-direction: column; 
   justify-content: center;
-  gap: 1.7rem;
+  gap: 1.7rem; 
   margin-top:3rem;
-  @media screen and (min-width:820px) {
-    width: 80%;
+  @media screen and (min-width:830px) {
+    width: 80%;  
   }
 }
 
@@ -131,7 +131,7 @@ mobile display
 }
 
 .hero__info-heading {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   line-height: 1.2;
   color: #040403;
@@ -139,14 +139,14 @@ mobile display
 
 .hero__info-text-block {
   min-height: 8rem;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero__info-text {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 /* hero__offer-block */
