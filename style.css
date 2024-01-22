@@ -39,7 +39,7 @@ mobile display
 }
 
 .line-break { 
-  display:block
+  display:block;
 }
 
 .header__prime-block {
@@ -70,7 +70,7 @@ mobile display
 .prime__nav {
   list-style: none;
   width: 100%;
-  gap: 4rem;
+  gap: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +81,7 @@ mobile display
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .prime__button-link-block {
@@ -92,7 +92,7 @@ mobile display
   padding: 1.5rem 1.4rem;
   border: none;
   border-radius: 0.3rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 500;
   background: #000000;
   color: #efefee;
