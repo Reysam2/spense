@@ -94,6 +94,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap:1.5rem;
 }
 
 .hero__info-heading-block {
@@ -102,7 +103,9 @@
 
 .hero__info-heading {
   font-size: 4rem;
+  font-weight:600;
   line-height: 1.2;
+  color:#040403;
 }
 
 .hero__info-text-block {
@@ -327,6 +330,7 @@
 .feature__info-heading {
   font-size: 2.6rem;
   color: #000000;
+  font-weight: 600;
 }
 
 .feature__info-text-block {
@@ -349,4 +353,5 @@
 
 .feature__link {
   font-size: 1.7rem;
+  text-decoration:underline;
 }
