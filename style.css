@@ -236,7 +236,11 @@ mobile display
 }
 
 .escrow__social-box {
-  flex-basis: 9%;
+  flex-basis: 15%;
+}
+
+ .escrow__social-box-hidden {
+  display:none
 }
 
 .escrow__social {
