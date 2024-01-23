@@ -403,12 +403,14 @@ mobile display
   background: #040403;
   min-height: 30rem;
   display: grid;
-  grid-template-columns: 37rem 1fr;
-  padding: 4% 8%;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 10% 2%;
 }
 
 .footer__info-block {
   min-height: 15rem;
+  width:80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -430,18 +432,21 @@ mobile display
   min-height: 15rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 .footer__info-links {
   min-height: 15rem;
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  display:flex; 
+  row-gap:4rem;
+  column-gap: 6rem;
+  flex-wrap: wrap; 
 }
 
 .footer__info-link-list {
   list-style: none;
+  width:14rem; 
 }
 
 .footer__info-link-item {
