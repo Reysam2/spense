@@ -255,16 +255,19 @@ mobile display
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items:center;
+  background: #ffffff;
 }
 
 .escrow__info {
   min-height: 40rem;
-  width: 100%; 
+  width: 90%; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #f0eeeb;
-  padding: 5%; ;
+  padding: 0 10%; 
+  border-radius:2% 2% 0 0;
 }
 
 .escrow__info-heading-block {
@@ -281,7 +284,7 @@ mobile display
 
 .escrow__info-text-block {
   min-height: 10rem;
-  width: 100%;
+  width: 92%;
   display: flex;
   align-items: center;
 }
@@ -298,17 +301,20 @@ mobile display
 }
 
 .escrow__info-image-block {
-  min-height: 50rem;
-  width: 100%;
+  min-height: 30rem;
+  width: 90%;
+  display:flex;
+  justify-content: center; 
   background: #f0eeeb;  
+  border-radius:0 0 2% 2%;
 }
 
 .escrow__info-image {
-  min-height: 50rem;
-  width: 100%;
-  background:url(assets/Phone\ Mockup\ \(Tablet\).png) no-repeat center;
-  background-size: contain;
-  margin-top:-10rem
+  min-height: 42rem;
+  width: 95%;
+  background:url(assets/Phone\ Mockup\ \(Tablet\).png) no-repeat center center;
+  background-size:auto;   
+  margin-top:-10rem; 
 }
 
 .escrow__info-img { 
