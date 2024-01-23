@@ -336,7 +336,7 @@ mobile display
   min-height: 35rem;
   width: 80%;
   display: flex;
-  display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   gap: 4rem;
 }
