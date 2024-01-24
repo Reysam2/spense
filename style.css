@@ -429,14 +429,14 @@ vertical-align: top;
   display: flex;
   justify-content: center;
   align-items: center; 
+  margin-top:5rem;
 }
 
 .footer__info-links {
   min-height: 15rem;
   width: 80%;
   display:flex; 
-  row-gap:4rem;
-  column-gap: 6rem;
+  row-gap:4rem; 
   flex-wrap: wrap; 
 }
 
