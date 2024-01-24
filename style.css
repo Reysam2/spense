@@ -361,9 +361,10 @@ vertical-align: top;
 }
 
 .feature__info-heading {
-  font-size: 2.6rem;
+  font-size: 3.8rem;
   color: #000000;
   font-weight: 600;
+  line-height:1.2;
 }
 
 .feature__info-text-block {
@@ -387,6 +388,7 @@ vertical-align: top;
 .feature__link {
   font-size: 1.7rem;
   text-decoration: underline;
+  font-weight:600;
 }
 
 /* footer */
