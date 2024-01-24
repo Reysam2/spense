@@ -304,7 +304,7 @@ vertical-align: top;
 .escrow__info-image {
   min-height: 42rem;
   width: 95%;
-  background:url(assets/Phone\ Mockup\ \(Tablet\).png) no-repeat center center;
+  background:url(assets/Phone\ Mockup\ \(Mobile\).png) no-repeat center center;
   background-size:auto;   
   margin-top:-10rem; 
 }
