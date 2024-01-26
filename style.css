@@ -970,12 +970,13 @@ vertical-align: top;
   /* header */
 .header-block {
     grid-area: header;
-    height:47vh;
-    height:47dvh;
-    height:47svh;
+    height:33vh;
+    height:33dvh;
+    height:33svh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    gap:3rem;
   }
   
   .header__ads-block {
@@ -999,7 +1000,7 @@ vertical-align: top;
   .header__ads-text {
     color: #fefefe; 
     text-align: center; 
-    font-size:1.4rem
+    font-size:1.6rem
   }
   
   .line-break { 
@@ -1068,18 +1069,18 @@ vertical-align: top;
   display: flex;
   flex-direction: column-reverse; 
   align-items:center;
-  margin-top: 13rem;  
+  margin-top: 26rem;  
   padding:0 4% 2rem;
 }
 
 .hero__info-block {
   min-height: 20rem;
-  width: 100%;
+  width: clamp(80%, 83%, 85%);
   display: flex;
   flex-direction: column; 
-  justify-content: center;
-  margin-top:5rem;
-  gap: 1.7rem;   
+  justify-content: center; 
+  gap: 2rem;  
+  margin-top:2rem; 
 }
 
 .hero__info-heading-block {
@@ -1087,7 +1088,7 @@ vertical-align: top;
 }
 
 .hero__info-heading {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   font-weight: 600;
   line-height: 1.2;
   color: #040403;
@@ -1102,7 +1103,7 @@ vertical-align: top;
 }
 
 .hero__info-text {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 /* hero__offer-block */
@@ -1113,9 +1114,15 @@ vertical-align: top;
 .hero__offer-list-item {
   background: url(assets/Checkmark.svg) no-repeat left center;
   padding-left: 3.5rem;
-  line-height: 2.5;
+  line-height: 1.5;
+  gap:3rem;
   list-style: none;
-  font-weight:600;
+  font-weight:600; 
+ font-size:1.8rem;
+}
+
+.hero__offer-list-item:not(:last-of-type) {
+  margin-bottom:1.35rem
 }
 
 /* hero__mail-block */
@@ -1129,8 +1136,9 @@ vertical-align: top;
 .hero__mail {
   min-height: 7rem;
   width: 100%;
-  display: flex;
+  display: flex; 
   gap: 2rem; 
+  flex-wrap: wrap;
 }
 
 .mail__input-field {
@@ -1140,11 +1148,15 @@ vertical-align: top;
 }
 
 .mail__input {
-  padding: 1.5rem 1.4rem;
+  width: clamp(6.7rem, 20rem, 36rem);
+  min-height: 5rem;
   border-color: #fefefe;
-  border-radius: 0.5rem;
-  outline: none;
-  font-size: 1.5rem;
+  border-radius: 0.5rem; 
+  font-size: 1.4rem;
+}
+
+.mail__input::placeholder {
+  padding-left:5%;
 }
 
 .mail__button-block {
@@ -1154,9 +1166,8 @@ vertical-align: top;
 }
 
 .mail__button {
-  width: 10rem;
-  min-height: 5rem;
-  /* padding: 1.6rem 1.1rem; */
+  width: clamp(6rem, 12rem, 15rem);
+  min-height: 5rem; 
   border: none;
   border-radius: 0.3rem;
   font-size: 1.4rem;
@@ -1166,7 +1177,7 @@ vertical-align: top;
 }
 
 .hero__image-block {
-  min-height: 40rem;
+  min-height: 45rem;
   width: 100%;
   display: flex;
   background: url(assets/Hero\ Image\ \(Mobile\).png) no-repeat center;
