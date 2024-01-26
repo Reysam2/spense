@@ -1201,8 +1201,8 @@ vertical-align: top;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  padding: 7rem 0;
+  gap: 2rem;
+  padding: 5rem 0;
 }
 
 .escrow__social-box {
@@ -1221,7 +1221,7 @@ vertical-align: top;
 }
 
 .escrow__info-block {
-  min-height: 65rem;
+  min-height: 55rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1237,9 +1237,10 @@ vertical-align: top;
   flex-direction: column;
   justify-content: center;
   background: #f0eeeb;
-  padding: 0 10%; 
+  padding: 0 5%; 
   border-radius:2% 2% 0 0;
-  gap:1rem;
+  gap:1.1rem;
+  margin-bottom:-10rem;
 }
 
 .escrow__info-heading-block {
@@ -1248,7 +1249,7 @@ vertical-align: top;
 }
 
 .escrow__info-heading {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   font-weight: 600;
   color: #000000;
   line-height: 1.2;
@@ -1256,9 +1257,13 @@ vertical-align: top;
 
 .escrow__info-text-block {
   min-height: 10rem;
-  width: 92%;
+  width: 100%;
   display: flex;
   align-items: center;
+}
+
+.escrow__info-text {
+  font-size:1.8rem;
 }
 
 .escrow__info-link-block {
@@ -1270,6 +1275,8 @@ vertical-align: top;
 
 .escrow__info-link {
   text-decoration: underline;
+  font-size:1.6rem;
+  z-index: 5;
 }
 
 .escrow__info-image-block {
@@ -1278,15 +1285,14 @@ vertical-align: top;
   display:flex;
   justify-content: center; 
   background: #f0eeeb;  
-  border-radius:0 0 2% 2%;
+  border-radius:0 0 2% 2%;  
 }
 
 .escrow__info-image {
-  min-height: 42rem;
+  min-height: 26rem;
   width: 90%;
   background:url(assets/Phone\ Mockup\ \(Mobile\).png) no-repeat center center;
-  background-size:auto;   
-  margin-top:-10rem; 
+  background-size:contain;    
 }
 
 .escrow__info-img { 
