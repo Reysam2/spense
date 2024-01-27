@@ -1936,38 +1936,44 @@ vertical-align: top;
  *******************/
  @media screen and (min-width:768px) and (max-width:1023px) {
   /* header */
-.header-block {
-  grid-area: header;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.header__ads-block {
-  min-height: 5rem;
-  width: 100%;
-  background: #000000;
-  display: flex; 
-  align-items: center;
-}
-
-.header__ads-text-block  {
-  min-height: 5rem;
-  width: 100%;
-  background: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header__ads-text {
-  color: #fefefe; 
-  text-align: center; 
-}
-
-.line-break { 
-  display:block;
-}
+  .header-block {
+    grid-area: header;
+    height:30vh;
+    height:30dvh;
+    height:30svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap:3.5rem;
+  }
+  
+  .header__ads-block {
+    min-height: 10rem;
+    width: 100%;
+    background: #000000;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+  }
+  
+  .header__ads-text-block  {
+    min-height: 7rem;
+    width: 100%;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header__ads-text {
+    color: #fefefe; 
+    text-align: center; 
+    font-size: clamp(1.8rem, 2rem, 3rem);
+  }
+  
+  .line-break { 
+    display:block;
+  }
 
 .header__prime-block {
   min-height: 8rem;
