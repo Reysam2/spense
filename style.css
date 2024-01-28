@@ -2047,7 +2047,8 @@ vertical-align: top;
   display: flex;
   flex-direction: column-reverse; 
   align-items:center;
-  margin-top: 6rem; 
+  margin-top: 26rem;  
+  padding:0 4% 2rem;
 }
 
 .hero__info-block {
@@ -2055,12 +2056,10 @@ vertical-align: top;
   width: 90%;
   display: flex;
   flex-direction: column; 
-  justify-content: center;
-  gap: 1.7rem; 
-  margin-top:3rem;
-  @media screen and (min-width:830px) {
-    width: 80%;  
-  }
+  justify-content: center; 
+  gap: 2rem;  
+  margin:1.5rem 0 -10rem;
+  padding-left:clamp(6%,3%, 13%)
 }
 
 .hero__info-heading-block {
@@ -2068,7 +2067,7 @@ vertical-align: top;
 }
 
 .hero__info-heading {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 600;
   line-height: 1.2;
   color: #040403;
@@ -2076,14 +2075,14 @@ vertical-align: top;
 
 .hero__info-text-block {
   min-height: 8rem;
-  width: 100%;
+  width: 92%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero__info-text {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 /* hero__offer-block */
@@ -2094,8 +2093,15 @@ vertical-align: top;
 .hero__offer-list-item {
   background: url(assets/Checkmark.svg) no-repeat left center;
   padding-left: 3.5rem;
-  line-height: 2.5;
+  line-height: 1.5;
+  gap:3rem;
   list-style: none;
+  font-weight:600; 
+ font-size:2rem;
+}
+
+.hero__offer-list-item:not(:last-of-type) {
+  margin-bottom:1.5rem
 }
 
 /* hero__mail-block */
@@ -2109,22 +2115,27 @@ vertical-align: top;
 .hero__mail {
   min-height: 7rem;
   width: 100%;
-  display: flex;
-  gap: 2rem;
+  display: flex; 
+  gap: 2rem; 
+  flex-wrap: wrap;
 }
 
 .mail__input-field {
-  flex-basis: 20%;
+  flex-basis: 15%;
   display: flex;
   align-items: center;
 }
 
 .mail__input {
-  padding: 1.5rem 1.4rem;
+  width: clamp(20rem, 25rem, 30rem);
+  min-height: 5rem;
   border-color: #fefefe;
-  border-radius: 0.5rem;
-  outline: none;
-  font-size: 1.5rem;
+  border-radius: 0.5rem; 
+  font-size: 1.6rem;
+}
+
+.mail__input::placeholder {
+  padding-left:5%;
 }
 
 .mail__button-block {
@@ -2134,7 +2145,8 @@ vertical-align: top;
 }
 
 .mail__button {
-  padding: 1.6rem 1.8rem;
+  width: clamp(10rem, 12rem, 15rem);
+  min-height: 5rem; 
   border: none;
   border-radius: 0.3rem;
   font-size: 1.6rem;
@@ -2144,10 +2156,10 @@ vertical-align: top;
 }
 
 .hero__image-block {
-  min-height: 40rem;
-  width: 90%;
+  min-height: 35rem;
+  width: 80%;
   display: flex;
-  background: url(assets/Hero\ Image\ \(Tablet\).png) no-repeat center;
+  background: url(assets/Hero\ Image\ \(Tablet\).png) no-repeat left center ;
   background-size: contain;
 }
 
