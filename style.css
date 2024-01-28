@@ -1968,7 +1968,7 @@ vertical-align: top;
   .header__ads-text {
     color: #fefefe; 
     text-align: center; 
-    font-size: clamp(1.8rem, 2rem, 3rem);
+    font-size: clamp(1.8rem, 2vw, 3rem);
   }
   
   .line-break { 
