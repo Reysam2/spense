@@ -2215,8 +2215,10 @@ vertical-align: top;
   flex-direction: column;
   justify-content: center;
   background: #f0eeeb;
-  padding: 0 10%; 
-  border-radius:2% 2% 0 0;
+  padding: 0 5%; 
+  gap:1.1rem;
+  border-radius:2% 2% 0 0; 
+  margin-bottom:-9rem;
 }
 
 .escrow__info-heading-block {
@@ -2225,17 +2227,21 @@ vertical-align: top;
 }
 
 .escrow__info-heading {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 600;
   color: #000000;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .escrow__info-text-block {
   min-height: 10rem;
-  width: 92%;
+  width: 100%;
   display: flex;
   align-items: center;
+}
+
+.escrow__info-text {
+  font-size:2rem;
 }
 
 .escrow__info-link-block {
@@ -2247,6 +2253,8 @@ vertical-align: top;
 
 .escrow__info-link {
   text-decoration: underline;
+  font-size:2rem;
+  z-index: 5;
 }
 
 .escrow__info-image-block {
@@ -2255,15 +2263,14 @@ vertical-align: top;
   display:flex;
   justify-content: center; 
   background: #f0eeeb;  
-  border-radius:0 0 2% 2%;
+  border-radius:0 0 2% 2%;  
 }
 
 .escrow__info-image {
-  min-height: 42rem;
-  width: 95%;
+  min-height: 26rem;
+  width: 90%;
   background:url(assets/Phone\ Mockup\ \(Tablet\).png) no-repeat center center;
-  background-size:auto;   
-  margin-top:-10rem; 
+  background-size:contain;    
 }
 
 .escrow__info-img { 
