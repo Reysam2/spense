@@ -1405,7 +1405,8 @@ vertical-align: top;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;  
-  font-size:1.8rem
+  font-size:1.8rem;
+  padding-bottom:18%;
 }
 
 .footer__info-block {
