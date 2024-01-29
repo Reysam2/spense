@@ -495,6 +495,11 @@ vertical-align: top;
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    @media screen and (min-width:412px) {
+      height:35vh;
+      height:35dvh;
+      height:35svh;
+    }
   }
   
   .header__ads-block {
@@ -589,6 +594,9 @@ vertical-align: top;
   align-items:center;
   margin-top: 13rem;  
   padding:0 4% 2rem;
+  @media screen and (min-width:412px) {
+    padding:30% 4% 2rem;
+  }
 }
 
 .hero__info-block {
@@ -598,6 +606,10 @@ vertical-align: top;
   flex-direction: column; 
   justify-content: center; 
   gap: 1.9rem;   
+  @media screen and (min-width:412px) {
+    width:94%;
+    margin-top:2rem;
+  }
 }
 
 .hero__info-heading-block {
