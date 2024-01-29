@@ -952,7 +952,8 @@ vertical-align: top;
 .footer__info-links {
   min-height: 15rem;
   width: 100%;
-  display:flex;  
+  display:flex;
+  justify-content: space-around;  
   column-gap:5rem;  
   row-gap: 5rem;;
   flex-wrap: wrap; 
