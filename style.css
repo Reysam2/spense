@@ -424,6 +424,7 @@ vertical-align: top;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;  
+  padding-bottom: 8rem;
 }
 
 .footer__info-block {
@@ -441,10 +442,13 @@ vertical-align: top;
 }
 
 .footer__info-heading-block {
-  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer__info-heading {
+  font-size: 1.6rem;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 1rem;
 }
 
 .footer__info-link-block {
@@ -460,6 +464,7 @@ vertical-align: top;
   min-height: 15rem;
   width: 100%;
   display:flex;  
+  justify-content:space-around;
   column-gap:3.6rem;  
   row-gap: 6rem;;
   flex-wrap: wrap; 
@@ -476,7 +481,7 @@ vertical-align: top;
 
 .link-title {
   color: #ffffff;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
