@@ -922,6 +922,7 @@ vertical-align: top;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;  
+  padding-bottom: 20%;
 }
 
 .footer__info-block {
