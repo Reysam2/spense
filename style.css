@@ -989,9 +989,9 @@ vertical-align: top;
   /* header */
 .header-block {
     grid-area: header;
-    height:33vh;
-    height:33dvh;
-    height:33svh;
+    height:46vh;
+    height:46dvh;
+    height:46svh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
