@@ -494,9 +494,9 @@ vertical-align: top;
   /* header */
   .header-block {
     grid-area: header;
-    height:47vh;
-    height:47dvh;
-    height:47svh;
+    height:42vh;
+    height:42dvh;
+    height:42svh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -518,7 +518,7 @@ vertical-align: top;
   
   .header__ads-text-block  {
     min-height: 7rem;
-    width: 98%;
+    width: 95%;
     background: #000000;
     display: flex;
     justify-content: center;
