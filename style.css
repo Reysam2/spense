@@ -3072,7 +3072,7 @@ vertical-align: top;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding-top: 1.5%;
+  padding: 4% 0;
 }
 
 .escrow__social-box {
