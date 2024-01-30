@@ -499,12 +499,20 @@ vertical-align: top;
     height:34svh;
     display: flex;
     flex-direction: column;
+    
     justify-content: center; 
+    @media screen and (min-width:390px) {
+      height:28vh;
+      height:28dvh;
+      height:28svh;
+    }
+
     @media screen and (min-width:412px) {
       height:26vh;
       height:26dvh;
       height:26svh;
-    }
+    };
+    
   }
   
   .header__ads-block {
