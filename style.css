@@ -494,16 +494,16 @@ vertical-align: top;
   /* header */
   .header-block {
     grid-area: header;
-    height:42vh;
-    height:42dvh;
-    height:42svh;
+    height:34vh;
+    height:34dvh;
+    height:34svh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     @media screen and (min-width:412px) {
-      height:35vh;
-      height:35dvh;
-      height:35svh;
+      height:26vh;
+      height:26dvh;
+      height:26svh;
     }
   }
   
