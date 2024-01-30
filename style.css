@@ -937,6 +937,9 @@ vertical-align: top;
 .footer__info {
   width:90%;
   min-height: 15rem;
+  @media screen and (min-width:412px) {
+    width:85%;
+  }
 }
 
 .footer__info-heading-block {
@@ -948,7 +951,7 @@ vertical-align: top;
 
 .footer__info-link-block {
   min-height: 15rem;
-  width:80%;
+  width:90%;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -957,7 +960,7 @@ vertical-align: top;
 
 .footer__info-links {
   min-height: 15rem;
-  width: 100%;
+  width: 90%;
   display:flex;
   justify-content: space-around;  
   column-gap:5rem;  
@@ -967,7 +970,7 @@ vertical-align: top;
 
 .footer__info-link-list {
   list-style: none;
-  width:10rem; 
+  width:12rem; 
 }
 
 .footer__info-link-item {
