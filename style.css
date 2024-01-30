@@ -3086,21 +3086,21 @@ vertical-align: top;
 }
 
 .escrow__info-block {
-  min-height: 35rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  min-height: 40rem;
+  width: 93%;
+  display: flex; 
+  align-self: center;
+  background:url(assets/Phone\ Mockup\ \(Desktop\).png) no-repeat #f0eeeb    ;
+  background-size:contain; 
+  border-radius:2%;
 }
 
 .escrow__info {
-  flex-basis: 40%;
-  z-index: 100;
+  flex-basis: 48%; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: #f0eeeb;
-  padding: 5%;
-  border-radius: 2% 0 0 2%;
+  justify-content: center; 
+  padding-left: 5.5%;
 }
 
 .escrow__info-heading-block {
@@ -3131,23 +3131,6 @@ vertical-align: top;
 
 .escrow__info-link {
   text-decoration: underline;
-}
-
-.escrow__info-image-block {
-  flex-basis: 40%;
-  background: #f0eeeb;
-  position: relative;
-  border-radius: 0 2% 2% 0;
-}
-
-.escrow__info-image {
-  min-width: 185%;
-  position: absolute;
-  right: 5rem;
-}
-
-.escrow__info-img {
-  width: 100%;
 }
 
 /* main__feature-block */
