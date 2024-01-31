@@ -1980,13 +1980,24 @@ vertical-align: top;
   /* header */
   .header-block {
     grid-area: header;
-    height:30vh;
-    height:30dvh;
-    height:30svh;
+    height:20vh;
+    height:20dvh;
+    height:20svh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     gap:3.5rem;
+    @media screen and  (width:820px) {
+      height:18vh;
+      height:18dvh;
+      height:18svh;
+    }
+
+    @media screen and  (width:912px) {
+      height:16vh;
+      height:16dvh;
+      height:16svh;
+    }
   }
   
   .header__ads-block {
