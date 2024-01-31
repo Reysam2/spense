@@ -7,12 +7,12 @@
   /* header */
 .header-block {
   grid-area: header;
-  height:47vh;
-  height:47dvh;
-  height:47svh;
+  height:35vh;
+  height:35dvh;
+  height:35svh;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .header__ads-block {
