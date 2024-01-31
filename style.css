@@ -499,8 +499,19 @@ vertical-align: top;
     height:34svh;
     display: flex;
     flex-direction: column;
-    
     justify-content: center; 
+    @media screen and (width:320px){
+      height:48vh;
+      height:48dvh;
+      height:48svh;
+    }
+
+    @media screen and (width:360px){
+      height:36vh;
+      height:36dvh;
+      height:36svh;
+    }
+
     @media screen and (min-width:390px) {
       height:28vh;
       height:28dvh;
